@@ -90,7 +90,7 @@ contador=0;
 tLin=zeros(1,round(tsim/h));
 for i=(round(1/h)):1:(tsim/h)
     if flag==1 
-    tLin(1,i)=1.15e-3;
+    tLin(1,i)=1.15e-3*.1;
     contador=contador+1;
         if contador==round(2/h)
             flag=0;
